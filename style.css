@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #c1bdba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isi{
+    width: 40%;
+    height: 85vh;
+    background-color: #13232f;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    flex-direction: column;
+}
+
+.signup{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signup button{
+    width: 40%;
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+
+#btn:hover{
+    background-color: #2f3640;
+}
+
+#lgn:hover{
+    background-color: #1ab188;
+}
+
+#btn{
+
+    background-color: #1ab188;
+}
+
+
+#lgn{
+    background-color: #2f3640;
+}
+
+
+.signup button:hover{
+    cursor: pointer;
+    background-color: #1ab188;
+    transition: 1s;
+}
+
+#free{
+    font-size: 25px;
+    color: white;
+    margin: 45px auto;
+}
+
+
+#firstname{
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+    display: block;
+    margin-left: 45px ;
+    
+}
+
+#firstname input{
+    width: 40%;
+    height: 30px;
+    border: 1.5px solid white;
+    background-color: #13232f;
+    font-size: 15px;
+    color: white;
+}
+
+.email{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.email input{
+    width: 81.5%;
+    margin: 15px auto;
+    height: 30px;
+    background-color: #13232f;
+    border: 1.5px solid white;
+    color: white;
+    font-size: 15px;
+}
+
+.start{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.start button{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    width: 82%;
+    border: none;
+    background-color: #1ab188;
+}
+
+.start button:hover{
+    cursor: pointer;
+}
+
+#start{
+    display: block;
+}
+
+#login{
+    display: none;
+}
+
+#welcome{
+    display: none;
+}
+
+#free1{
+    display: block;
+}
+
+#email1{
+    display: none;
+}
+
+#pass1{
+    display: none;
+}
